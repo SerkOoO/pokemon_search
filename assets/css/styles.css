@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.font-retro {
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.shadow-lg {
+    box-shadow: 4px 4px 0 #2A2B8D, 8px 8px 0 #004080;
+}
+
+.img-pokemon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.414);
+    padding: 1rem;
+}
+
+.img-pokemon img{
+    width: 50%;
+}
+
+.stat-pokemon{
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.414);
+}
+
+.card-container {
+    width: 100%;
+    height: 100%;
+    perspective: 1000px; 
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+.card{
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.1s ease-out; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+
+}
+
+.card-front{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  }
+
+.card-pokemon-feu{
+    background: linear-gradient(45deg,#FFB701, #FF2B00);
+    background-size: 300% 300%;
+    animation: color 5s ease-in-out infinite;
+}
+
+.card-pokemon-eau{
+    background: linear-gradient(45deg,#0095ff, #000e7c);
+    background-size: 300% 300%;
+    animation: color 5s ease-in-out infinite;
+
+}
+
+.card-pokemon-herbe{
+    background: linear-gradient(45deg,#00ff6e, #007124);
+    background-size: 300% 300%;
+    animation: color 5s ease-in-out infinite;
+}
+
+.card-pokemon-elec{
+    background: linear-gradient(45deg,#fff700, #b9c000);
+    background-size: 300% 300%;
+    animation: color 5s ease-in-out infinite;
+}
+
+.card-pokemon-psy{
+    background: linear-gradient(45deg,#7a00bc, #390041);
+    background-size: 300% 300%;
+    animation: color 5s ease-in-out infinite;
+}
+
+.card-pokemon-obscure{
+    background: linear-gradient(45deg,#17002a, #14001a);
+    background-size: 300% 300%;
+    animation: color 5s ease-in-out infinite;
+}
+
+.card-pokemon-poison{
+    background: linear-gradient(45deg,#7a00bc, #14001a);
+    background-size: 300% 300%;
+    animation: color 5s ease-in-out infinite;
+}
+
+.card-pokemon-dragon{
+    background: linear-gradient(45deg,#b5b5b5, #646464);
+    background-size: 300% 300%;
+    animation: color 5s ease-in-out infinite;
+}
+
+.card-pokemon-normal{
+    background: linear-gradient(45deg,#ffffff, #cccccc);
+    background-size: 300% 300%;
+    animation: color 5s ease-in-out infinite;
+}
+
+
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+
+footer {
+    text-align: center;
+    padding: 5px;
+    color: #0032de;
+    position: relative;
+    margin-top: auto;
+  }
