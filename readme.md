@@ -1,10 +1,4 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-.font-retro {
-    font-family: 'Press Start 2P', cursive;
-}
-</style>
 
 <h1 align="center" class="font-retro ">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/langfr-420px-International_Pok%C3%A9mon_logo.svg.png" alt="Pokemon Logo" height="80"/>
